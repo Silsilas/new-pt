@@ -1,0 +1,226 @@
+.border{
+    background: none;
+    border: none;
+}
+
+.top{
+    padding-top: 220px;
+}
+
+.titles{
+    font-size:60px;
+    font-weight:bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color:#fff;
+     text-transform:capitalize;
+    }
+
+    .title{
+        font-size:30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 500;
+        margin-top: 30px;
+         color:#fff;
+         text-transform:capitalize;
+        }
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    opacity: .5;
+}
+
+.background1{
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition:all .3s ease 0s;
+}
+
+
+
+.image{
+    height: 40vh;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+}
+
+.contact{
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: .1;
+    padding-top: 40px;
+}
+
+.contacts{
+    height: 70vh;
+    width: 80%;
+    background-color: white;
+    opacity: .9;
+}
+
+.btn{
+    background: blue;
+    /* width: 0%; */
+    /* height: 30%; */
+    /* border-radius: 0%; */
+}
+
+.prt-page{
+    box-shadow: -1px 2px 33px -1px rgba(0,0,0,0.55);
+}
+
+
+.graph{
+    margin-left: 70%;
+    padding: 0;
+}
+
+.graphs{
+    line-height: 20px;
+}
+
+
+
+.kk{
+    border-bottom: 1px blue solid;
+}
+
+.heads{
+    font-size: 30px;
+    font-weight: 200%;
+    line-height: 2;
+}
+
+.abt-page{
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.span{
+    border-bottom: 3px blue solid;
+}
+
+.icon-box{
+    text-align: center;
+}
+.icons{
+   width: 33%;
+   margin-left: 30%;
+}
+
+.icon-container{
+    margin: 0;
+    line-height: 1;
+}
+
+.icon-container:hover{
+    box-shadow: blue;
+}
+
+.icon-container:hover > .icon-box{
+    color: blue;
+    /* font-size: 80px; */
+
+}
+
+.icon-container:hover > .skills{
+    font-weight: bold;
+
+}
+
+
+.box1 img,.box1:after,.box1:before{
+    width:100%;
+    transition:all .3s ease 0s;
+}
+.box1 .icon,.box2.icon li a{
+    text-align:center;
+}
+.box1:after,.box1:before,.box2 .inner-content:after{
+    content:""
+}
+.box1,.box2.icon li a{
+    overflow:hidden
+}Hover Effect Style
+
+
+.box1 .title{letter-spacing:1px}
+.box3 .post,.box4 .post,.box5 .post,.box7 .post{
+    font-style:italic
+}
+body{
+    background-color:#f1f1f2
+}
+.mt-30{
+    margin-top:30px
+}
+.mt-40{
+    margin-top:40px
+}
+.mb-30{
+    margin-bottom:30px
+}
+.box1 .icon,.box1 .title{
+    margin:0;
+    position:absolute
+}
+.box1{
+    box-shadow:0 0 3px rgba(0,0,0,.3);
+    box-shadow: -2px 2px 33px -1px rgba(0,0,0,0.75);
+    position:relative
+}
+.box1:after,.box1:before{
+    height:50%;background:rgba(0,0,0,.5);
+    position:absolute;
+    top:0;left:0;z-index:1;
+    transform-origin:100% 0;
+    transform:rotateZ(90deg)}
+.box1:after{top:auto;bottom:0;transform-origin:0 100%}
+.box1:hover:after,.box1:hover:before{transform:rotateZ(0)}
+.box1 img{height:100%;transform:scale(1) rotate(0)}
+.box1:hover img{filter:sepia(80%);transform:scale(1.3) rotate(10deg)}
+.box1 .title{font-size:19px;font-weight:600;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';color:#fff;text-transform:uppercase;text-shadow:0 0 1px #004cbf;bottom:10px;left:10px;opacity:0;z-index:2;transform:scale(0);transition:all .5s ease .2s}
+.box1:hover .title{opacity:1;transform:scale(1)}
+.box1 .icon{padding:7px 5px;list-style:none;background:#004cbf;border-radius:0 0 0 10px;top:-100%;right:0;z-index:2;transition:all .3s ease .2s}
+.box1:hover .icon{top:0}
+.box1 .icon li{display:block;margin:10px 0}
+.box1 .icon li a{display:block;width:35px;height:35px;line-height:35px;border-radius:10px;font-size:18px;color:#fff;transition:all .3s ease 0s}
+.box2 .icon li a,.box3 .icon a:hover,.box4 .icon li a:hover,.box5 .icon li a,.box6 .icon li a{border-radius:50%}
+.box1 .icon li a:hover{color:#fff;box-shadow:0 0 10px #000 inset,0 0 0 3px #fff}
+
+.box1:hover .space{opacity:1;transform:scale(1)}
+.box1 .space{font-size:15px;font-weight:bold;color:#fff;text-transform:none;top:10px;left:10px;opacity:0;z-index:2;transform:scale(0);transition:all .5s ease .2s}
+.box1 .space{margin:0;position:absolute}
+
+
+
+
+h1 {
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+h1:before{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 5px solid blue;
+}
